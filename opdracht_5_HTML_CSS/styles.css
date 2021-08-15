@@ -1,0 +1,23 @@
+body { 
+    color: black;
+    background-color: #FAE5D3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+.border {
+    margin: 1em 3em;
+	color: #999;
+	border-left: 2px solid #999;
+	padding-left: 1em;
+}
+.photo {
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px;}
+footer {
+    font-weight: bold;
+}
+header, h2 {
+    color:coral
+}
