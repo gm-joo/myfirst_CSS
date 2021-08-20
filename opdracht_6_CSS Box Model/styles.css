@@ -1,0 +1,53 @@
+* {
+    margin:5px 15px;
+    padding:0px;
+}
+body { 
+    color: black;
+    background-color: #FAE5D3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    
+    
+}
+/*mooie border eventueel voor later
+.border {
+    margin: 1em 3em;
+	color: #999;
+	border-left: 2px solid #999;
+	padding-left: 1em;
+}
+*/
+.photo {
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px;}
+footer {
+    font-weight: bold;
+}
+header, h2 {
+    color:coral
+}
+main, header, footer, nav {
+    border-style: double; 
+    border-color: coral;
+    margin-top:25px;
+    padding-top:15px;
+    padding-right:20px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding:15px 20px;
+  }
+div {
+    width:80%;
+    margin: auto;
+}
+.categories {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+  }
+.inline {
+    display:inline;
+}
