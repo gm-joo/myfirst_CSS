@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <a href="index.html">
+        <h3>Terug naar home</h3>
+    </a>
+
+    <!--Maak een formulier met de onderstaande inputvelden.
+naam
+email
+telefoonnummer (tel)
+leeftijd
+geboortedatum
+gender (radiobuttons)
+favoriete cuisine: frans, italiaans, spaans of arabisch (checkbox)
+favoriete kleur van schort (colorpicker)
+biografie (text-area)
+upload je laatste recept (upload een file)
+url naar je recepten website (url)
+een button van het type "reset" om het formulier leeg te kunnen maken
+een button van het type "submit" om het formulier te kunnen verzenden-->
+
+    <form name="contact" method="POST" data-netlify="true">
+        <h3><u>Hi chefs! Graag onderstaand formulier invullen zodat we jouw recept op onze website kunnen plaatsen:</u>
+        </h3>
+        <p> <label>Naam<input type="text" name="name" /></label></p>
+        <p> <label>Email<input type="email" name="email" /></label></p>
+        <p> <label>Telefoonnummer<input type="tel" name="tel" /></label></p>
+        <p> <label>Geboortedatum<input type="date" name="date" /></label></p>
+
+        <p> <label>Geslacht:<br>
+                <input type="radio" id="vrouw" name="gender" value="vrouw">
+                <label for="vrouw">Vrouw</label><br>
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="man">Man</label><br>
+                <input type="radio" id="n.v.t." name="gender" value="n.v.t.">
+                <label for="n.v.t.">n.v.t.</label></label></p>
+
+        <p> <label>Favoriete cuisine:<br></label>
+            <input type="checkbox" id="Cuisine1" name="Cuisine1" value="Frans">
+            <label for="Cuisine1"> Frans</label><br>
+            <input type="checkbox" id="Cuisine2" name="Cuisine2" value="Italiaans">
+            <label for="Cuisine2"> Italiaans</label><br>
+            <input type="checkbox" id="Cuisine3" name="Cuisine3" value="Spaans">
+            <label for="Cuisine3"> Spaans</label><br>
+            <input type="checkbox" id="Cuisine4" name="Cuisine4" value="Arabisch">
+            <label for="Cuisine4"> Arabisch</label>
+        </p>
+
+        <p><label for="favcolor_schort">Selecteer je favoriete kleur van een schort:</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </p>
+
+        <p> <label>Biografie:<br></label>
+            <textarea name="textarea" rows="10" cols="30">Schrijf hier iets over jezelf </textarea>
+        </p>
+
+        <p><label for="recept_file">Upload hier je laatste recept:<br></label>
+            <input type="file" id="recept_file" name="recept_file">
+        </p>
+
+        <p><label for="website">Jouw receptenwebsite:<br></label>
+            <input type="url" id="website" name="website">
+        </p>
+
+        <p> Wil je alle gegevens wissen en het formulier opnieuw invullen, klik dan hier:<br>
+            <input type="reset" id="reset" name="reset">
+        </p>
+
+        <p> Klik hier om het formulier te verzenden:<br>
+            <input type="submit" id="submit" name="submit"/>
+        </p>
+    </form>
+
+</body>
+
+</html>
